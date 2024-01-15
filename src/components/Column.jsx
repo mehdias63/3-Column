@@ -4,8 +4,8 @@ import data from "./data";
 
 export default function Column() {
   return (
-    <div className="flex flex-col items-center my-2 justify-center md:flex-row md:h-screen">
-      {data.map((card , i) => (
+    <div className="flex flex-col items-center justify-center md:flex-row md:h-screen">
+      {data.map((card) => (
         <Card
           key={card.id}
           title={card.title}

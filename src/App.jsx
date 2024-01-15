@@ -3,7 +3,7 @@ import Column from "./components/Column";
 
 function App() {
   return (
-    <main>
+    <main className="bg-[#F2F2F2] min-h-screen">
       <Column />
     </main>
   );
